@@ -5,4 +5,11 @@ class Api::ContactsController < ApplicationController
     @contacts = Contact.all
     render "index.json.jbuilder"
   end
+
+  def show
+  # I want this to display a specific contact
+    contact_id = params[:id]
+    @contact = Contact.find_by(id: contact_id)
+    render "show.json.jbuilder"
+  end
 end
