@@ -7,3 +7,6 @@ Rails.application.routes.draw do
     post "/contacts" => "contacts#create"
   end
 end
+
+#created add_middle_name migration file
+
