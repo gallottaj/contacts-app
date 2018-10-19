@@ -15,7 +15,7 @@ class Api::ContactsController < ApplicationController
 
   def create
   # I want this to create a new contact
-    @contact = Contact.new(first_name: params[:input_first_name], last_name: params[:input_last_name], email: params[:input_email], phone_number: params[:input_phone_number])
+    @contact = Contact.new(first_name: params[:input_first_name], last_name: params[:input_last_name], email: params[:input_email], phone_number: params[:input_phone_number], middle_name: params[:input_middle_name])
     render "create.json.jbuilder"
     @contact.save
   end

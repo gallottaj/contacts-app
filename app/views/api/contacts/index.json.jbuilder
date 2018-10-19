@@ -1,1 +1,1 @@
-json.message @contacts
+json.contacts @contacts
