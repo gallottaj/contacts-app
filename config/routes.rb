@@ -10,5 +10,5 @@ Rails.application.routes.draw do
   end
 end
 
-#created add_middle_name migration file
+#creating contact with user_id currently broken
 

@@ -1,4 +1,5 @@
 json.partial! "contact.json.jbuilder", contact: @contact
+json.user @product.user
 
 # json.id @contact.id
 # json.first_name @contact.first_name
