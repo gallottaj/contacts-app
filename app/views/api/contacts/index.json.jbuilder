@@ -1,1 +1,1 @@
-json.contacts @contacts
+json.user_info current_user
