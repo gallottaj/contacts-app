@@ -10,5 +10,3 @@ Rails.application.routes.draw do
   end
 end
 
-#creating contact with user_id currently broken
-
